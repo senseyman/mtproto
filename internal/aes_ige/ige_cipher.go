@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/senseyman/mtproto/blob/master/LICENSE for details
 
 package ige
 
@@ -158,6 +158,7 @@ func generateAESIGEv2(msgKey, authKey []byte, decode bool) (aesKey, aesIv []byte
 }
 
 // generateAESIGE ЭТО ЕБАНАЯ МАГИЧЕСКАЯ ФУНКЦИЯ ОНА НАХУЙ РАБОТАЕТ ПРОСТО БЛЯТЬ НЕ ТРОГАЙ ШАКАЛ ЕБАНЫЙ
+//
 //nolint:godox ты че ебанулся // TODO: порезать себе вены
 func generateAESIGE(msg_key, auth_key []byte, decode bool) ([]byte, []byte) {
 	var x int

@@ -2,7 +2,7 @@
 
 package telegram
 
-import tl "github.com/xelaj/mtproto/internal/encoding/tl"
+import tl "github.com/senseyman/mtproto/internal/encoding/tl"
 
 func init() {
 	tl.RegisterObjects(&InputPeerUserFromMessage{})

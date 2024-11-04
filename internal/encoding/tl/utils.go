@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/senseyman/mtproto/blob/master/LICENSE for details
 
 package tl
 
@@ -30,7 +30,7 @@ func haveFlag(v any) bool {
 	return false
 }
 
-//! слайстрикс
+// ! слайстрикс
 func sliceToInterfaceSlice(in any) []any {
 	if in == nil {
 		return nil

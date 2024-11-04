@@ -4,8 +4,8 @@ import (
 	"sort"
 
 	"github.com/dave/jennifer/jen"
-	
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+
+	"github.com/senseyman/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 var maximumPositionalArguments = 5

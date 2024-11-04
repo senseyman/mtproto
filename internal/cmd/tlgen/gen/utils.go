@@ -7,8 +7,8 @@ import (
 	"github.com/dave/jennifer/jen"
 	"github.com/iancoleman/strcase"
 	"github.com/xelaj/go-dry"
-	
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+
+	"github.com/senseyman/mtproto/internal/cmd/tlgen/tlparser"
 )
 
 func createParamsStructFromMethod(method tlparser.Method) tlparser.Object {

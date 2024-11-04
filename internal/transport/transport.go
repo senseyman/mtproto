@@ -8,9 +8,9 @@ import (
 	"reflect"
 
 	"github.com/pkg/errors"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/mode"
-	"github.com/xelaj/mtproto/internal/mtproto/messages"
+	"github.com/senseyman/mtproto/internal/encoding/tl"
+	"github.com/senseyman/mtproto/internal/mode"
+	"github.com/senseyman/mtproto/internal/mtproto/messages"
 )
 
 type Transport interface {
